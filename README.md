@@ -15,33 +15,7 @@ This project is a Transactions Management System built using Node.js, Express, a
 
 ### Project Structure
 
-transactions/
-│── tests/  
-│ ├── rewardPoints.test.js # Tests for reward calculation
-│ ├── transactions.test.js # Tests for transactions
-│ ├── customerRewards.test.js # Tests for customer rewards logic
-│
-│── src/
-│ ├── models/
-│ │ ├── transaction.model.js # Mongoose schema for transactions
-│ │ ├── customer.model.js # Mongoose schema for customers
-│ │
-│ ├── routes/
-│ │ ├── transaction.routes.js # API routes for transactions
-│ │ ├── customer.routes.js # API routes for customers
-│ │
-│ ├── controllers/
-│ │ ├── transaction.controller.js # Business logic for transactions
-│ │ ├── customer.controller.js # Business logic for customers
-│ │
-│ ├── services/
-│ │ ├── reward.service.js # Reward calculation logic
-│
-│ ├── index.js # Main server file
-│
-│── package.json # Dependencies and scripts
-│── .env # Environment variables
-│── README.md # Documentation
+![folder-structure](folder-structure.png)
 
 ### Setup Instructions
 
