@@ -12,7 +12,7 @@ const transactionSchema = new mongoose.Schema(
   },
   {
     timestamps: true, // Automatically adds createdAt & updatedAt
-  }
+  },
 );
-
+transactionSchema.index({ customerId: 1 });
 module.exports = mongoose.model("Transaction", transactionSchema);
