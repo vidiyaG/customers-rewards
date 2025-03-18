@@ -102,7 +102,6 @@ const customerExists = async (req, res, next) => {
     if (!customerId) {
       customerId = req.params?.customerId;
     }
-    console.log(req.body, req.params);
     if (!mongoose.Types.ObjectId.isValid(customerId)) {
       return res.status(400).json({ error: "Invalid customer ID format" });
     }
