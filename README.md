@@ -40,7 +40,7 @@ This project is a Transactions Management System built using Node.js, Express, a
 
 - The server will run on http://localhost:3000/
 
-4️⃣ Start the application
+4️⃣ Test the application
 `npm run test`
 
 ![Testing reference output](test.png)
